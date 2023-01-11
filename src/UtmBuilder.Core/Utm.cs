@@ -48,7 +48,10 @@ namespace UtmBuilder.Core
             string term = pars.Where(x => x.StartsWith("utm_term")).FirstOrDefault("").Split("=")[1];
             string content = pars.Where(x => x.StartsWith("utm_content")).FirstOrDefault("").Split("=")[1];
 
-            Utm utm = new(new Url(segments[0]), new Campaign(source, medium, name, id, term, content));
+            Utm utm = new(
+                new Url(segments[0]), 
+                new Campaign(source, medium, name, id, term, content));
+
             return utm;
         }
 

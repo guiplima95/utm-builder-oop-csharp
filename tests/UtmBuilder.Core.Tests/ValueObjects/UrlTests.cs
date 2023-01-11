@@ -7,7 +7,7 @@ namespace UtmBuilder.Core.Tests.ValueObjects;
 public class UrlTests
 {
     [Fact]
-    public void ShouldBeAbleException_WhenUrlIsInvalid_ReturnException()
+    public void Url_ShouldBeAbleExceptionWhenUrlIsInvalid_ReturnException()
     {
         //Arrange
         string invalidAddress = "";
@@ -23,7 +23,7 @@ public class UrlTests
     }
 
     [Fact]
-    public void ShouldNotBeAbleException_WhenUrlIsValid_ReturnUrl()
+    public void UrlShouldNotBeAbleExceptionWhenUrlIsValid_ReturnUrl()
     {
         //Arrange
         string validAddress = "https://google.com";
