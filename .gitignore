@@ -7,3 +7,5 @@
 /src/UtmBuilder.Core/obj
 /tests/UtmBuilder.Core.Tests/bin/Debug/net7.0
 /tests/UtmBuilder.Core.Tests/obj
+/.vscode/settings.json
+/src/.vs/ProjectEvaluation
